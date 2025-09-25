@@ -39,6 +39,9 @@ The goal was to create scalable, reusable, and testable code to support the loan
 
  **Outcome:** EMI schedules are created automatically on loan approval. Bulk safe & scalable.
 
+ ![CLMSConstants Screenshot](images/trigger1.png)
+ ![CLMSConstants Screenshot](images/trigger2.png)
+
 ---
 
 ## 🔹 SOQL & Collections
@@ -49,6 +52,8 @@ The goal was to create scalable, reusable, and testable code to support the loan
   - Used `Map<Id, Loan_Application__c>` to track old vs new values.  
 
  **Outcome:** Efficient, governor-limit-safe queries ensure performance.
+ 
+ ![CLMSConstants Screenshot](images/collections.png)
 
 ---
 
@@ -60,6 +65,8 @@ The goal was to create scalable, reusable, and testable code to support the loan
 
  **Outcome:** Automates overdue EMI tracking.
 
+ ![CLMSConstants Screenshot](images/emioverdue.png)
+
 ---
 
 ## 🔹 Queueable Apex
@@ -69,6 +76,8 @@ The goal was to create scalable, reusable, and testable code to support the loan
 - Accepts Loan Ids, runs heavy logic in the background.  
 
  **Outcome:** Improves scalability for async tasks.
+
+ ![CLMSConstants Screenshot](images/loanqueable.png)
 
 ---
 
@@ -80,6 +89,8 @@ The goal was to create scalable, reusable, and testable code to support the loan
 
  **Outcome:** Simplifies async notifications.
 
+ ![CLMSConstants Screenshot](images/loanfuture.png)
+
 ---
 
 
@@ -90,6 +101,8 @@ The goal was to create scalable, reusable, and testable code to support the loan
 - Uses cron expression:  
 
  **Outcome:** Ensures overdue EMIs are updated automatically every night.
+
+ ![CLMSConstants Screenshot](images/loanscheduler.png)
 
 ---
 
@@ -120,6 +133,8 @@ The goal was to create scalable, reusable, and testable code to support the loan
 - Assertions to verify EMI counts, statuses.  
 
  **Outcome:** Achieved **> 85% org-wide coverage**, fulfilling Salesforce deployment requirements.
+
+ ![CLMSConstants Screenshot](images/loanhelpertest.png)
 
 ---
 
