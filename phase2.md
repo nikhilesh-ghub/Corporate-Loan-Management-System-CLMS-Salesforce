@@ -50,7 +50,7 @@ Business hours ensure loan-related activities occur within official times:
 - Republic Day → 01/26/2026  
 
 ![Business Hours](./images/business-hours.png)  
-![Holidays](./images/holidays.png)
+
 
 This prevents scheduling on non-working days and ensures accurate turnaround times.
 
